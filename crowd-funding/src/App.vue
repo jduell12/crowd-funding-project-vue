@@ -30,4 +30,12 @@ body {
   background: url("../images/image-hero-desktop.jpg") no-repeat fixed;
   background-size: 100%;
 }
+
+@media (max-width: 375px) {
+  html,
+  body {
+    background: url("../images/image-hero-mobile.jpg") no-repeat top center
+      fixed;
+  }
+}
 </style>
